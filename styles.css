@@ -93,10 +93,10 @@ body {
 
 .title-container {
   text-align: center;
-  /* width: max-content; */
+
   color: white;
   font-size: 44px;
-  /* margin: 0 auto; */
+
   position: absolute;
   left: 50%;
   top: 50%;
