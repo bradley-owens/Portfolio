@@ -371,11 +371,11 @@
           </p>
         </div>
         <div class="form-flex-container">
-          <div class="link-container">
+          <div class="my-link-container">
             <a class="resume link" href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="resume"
+                class="resume icon"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -389,13 +389,14 @@
               </svg>
               Resume</a
             >
-            <a class="linked-in link" href="#"
-              ><i class="devicon-linkedin-plain"></i> Linked in</a
-            >
+            <div>
+              <i class="devicon-linkedin-plain icon"></i>
+              <a class="linked-in link" href="#">Bradley Owens</a>
+            </div>
             <a class="phone link" href="#about"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="phone"
+                class="phone icon"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -412,7 +413,7 @@
             <a class="email link" href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="email"
+                class="email icon"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -427,7 +428,18 @@
               bradowens17@hotmail.com</a
             >
           </div>
-          <div class="form-container"></div>
+          <div class="form-container">
+            <form class="contact form">
+              <input type="text" placeholder="Full name" class="name input" />
+              <input type="text" placeholder="Email" class="email input" />
+              <input type="text" placeholder="Phone" class="phone input" />
+              <input
+                type="text"
+                placeholder="Write your message"
+                class="message input"
+              />
+            </form>
+          </div>
         </div>
       </section>
     </div>
