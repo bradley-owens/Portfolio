@@ -439,10 +439,12 @@ i:last-child {
   font-size: 30px;
   padding: 20px;
   border-radius: 20px;
+  font-family: "Roboto Slab", serif;
   border: 1px solid black;
 }
 
 .message {
+  font-family: "Roboto Slab", serif;
   margin-bottom: 30px;
 }
 
@@ -454,4 +456,5 @@ i:last-child {
   margin: 0 auto;
   background-color: white;
   font-weight: 700;
+  cursor: pointer;
 }

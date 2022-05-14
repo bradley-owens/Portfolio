@@ -434,19 +434,51 @@
             <h1 class="form-title">Send me a Message</h1>
 
             <form class="contact-form">
-              <input type="text" placeholder="Full name" class="name input" />
-              <input type="text" placeholder="Email" class="email input" />
-              <input type="text" placeholder="Phone" class="phone input" />
               <input
                 type="text"
-                placeholder="Write your message"
-                class="message input"
+                placeholder="Full name"
+                id="name"
+                class="name input"
               />
-              <button class="send-btn" id="send-btn">Send</button>
+              <input
+                type="text"
+                placeholder="Email"
+                id="email"
+                class="email input"
+              />
+              <input
+                type="text"
+                placeholder="Phone"
+                id="phone"
+                class="phone input"
+              />
+              <textarea
+                type="text"
+                placeholder="Write your message"
+                id="message"
+                class="message input"
+                row=" 4"
+              ></textarea>
+              <button onclick="sendEmail();" class="send-btn" id="send-btn">
+                Send
+              </button>
             </form>
           </div>
         </div>
       </section>
     </div>
+
+    <!-- js script  -->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("iWu7ZNgCWGuWv4GMf");
+      })();
+    </script>
+    <script src="script.js"></script>
   </body>
 </html>
