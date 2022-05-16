@@ -12,5 +12,6 @@ function sendEmail() {
     .send("service_t0fv5m8", "template_2byut5t", tempParameters)
     .then(function (response) {
       console.log("sucess", response.status);
+      alert("Your message has been sent! I'll be in touch as soon as I can! ");
     });
 }
