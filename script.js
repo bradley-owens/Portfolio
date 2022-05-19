@@ -18,17 +18,30 @@ function sendEmail() {
 
 // smooth scrolling option with javascript
 
-// const scrollToSection = document.querySelectorAll(".smooth_scroll");
-// const section2 = document.querySelector(".two");
-// const section3 = document.querySelector(".three");
-// const section4 = document.querySelector(".four");
-// const section5 = document.querySelector(".five");
-// const section6 = document.querySelector(".six");
+const scrollToSection = document.querySelectorAll(".smooth_scroll");
+const section2 = document.querySelector(".two");
+const section3 = document.querySelector(".three");
+const section4 = document.querySelector(".four");
+const section5 = document.querySelector(".five");
+const section6 = document.querySelector(".six");
 
-// for (let i = 0; i < scrollToSection.length; i++) {
-//   scrollToSection[i].addEventListener("click", function (e) {
-//     const num = scrollToSection[i].id;
-//     const clickedSection = `section${num}`;
-//     clickedSection.scrollIntoView({ behavior: "smooth" });
+// scrollToSection.forEach((el) => {
+//   el.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     const id = this.getAttribute("href");
+//     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
 //   });
-// }
+// });
+
+//Event Delegation
+
+const scrollToLinks = document.querySelector(".links");
+
+scrollToLinks.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  if (e.target.classList.contains("smooth_scroll")) {
+    const id = e.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  }
+});
