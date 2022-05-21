@@ -25,26 +25,26 @@ const section4 = document.querySelector(".four");
 const section5 = document.querySelector(".five");
 const section6 = document.querySelector(".six");
 
-// scrollToSection.forEach((el) => {
-//   el.addEventListener("click", function (e) {
-//     e.preventDefault();
-//     const id = this.getAttribute("href");
-//     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-//   });
-// });
-
-//Event Delegation
-
-const scrollToLinks = document.querySelector(".links");
-
-scrollToLinks.addEventListener("click", function (e) {
-  e.preventDefault();
-
-  if (e.target.classList.contains("smooth_scroll")) {
-    const id = e.target.getAttribute("href");
+scrollToSection.forEach((el) => {
+  el.addEventListener("click", function (e) {
+    e.preventDefault();
+    const id = this.getAttribute("href");
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-  }
+  });
 });
+
+//Event Delegation - for nav bar
+
+// const scrollToLinks = document.querySelectorAll(".links");
+
+// scrollToLinks.addEventListener("click", function (e) {
+//   e.preventDefault();
+//   console.log(e.target.classList);
+//   if (e.target.classList.contains("smooth_scroll")) {
+//     const id = e.target.getAttribute("href");
+//     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+//   }
+// });
 
 // changing opacity of links when mouse over
 
@@ -52,7 +52,7 @@ const nav = document.querySelector(".nav");
 
 const hoverOver = function (e, opac) {
   if (e.target.classList.contains("link-nav")) {
-    console.log("success");
+    // console.log("success");
     const link = e.target;
     const siblings = link.closest(".nav").querySelectorAll(".link-nav");
 
