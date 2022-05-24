@@ -5,6 +5,12 @@
   /* scroll-behavior: smooth;  */
 }
 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5%  */
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Roboto Slab", serif;
   /* overflow: hidden; */
@@ -58,7 +64,7 @@ body {
 
 .nav {
   background-color: rgba(64, 224, 208, 0.514);
-  padding: 30px;
+  padding: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,19 +74,19 @@ body {
 }
 
 .nav-title {
-  font-size: 52px;
+  font-size: 5.2rem;
   font-weight: 700;
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 .link-container {
   display: flex;
-  gap: 100px;
-  margin-right: 30px;
+  gap: 10rem;
+  margin-right: 3rem;
 }
 
 .link-nav {
-  font-size: 44px;
+  font-size: 4.4rem;
   font-weight: 700;
   color: black;
   text-decoration: none;
@@ -90,18 +96,18 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   align-items: flex-end;
-  border-bottom: 5px solid rgba(64, 224, 208);
+  border-bottom: 0.5rem solid rgba(64, 224, 208);
 }
 
 .dot {
-  width: 40px;
+  width: 4rem;
   color: rgba(64, 224, 208);
   line-height: 2;
 
-  margin-right: 40px;
-  margin-top: -10px;
+  margin-right: 4rem;
+  margin-top: -1rem;
   cursor: pointer;
 }
 
@@ -109,7 +115,7 @@ body {
   text-align: center;
 
   color: white;
-  font-size: 44px;
+  font-size: 4.4rem;
 
   position: absolute;
   left: 50%;
@@ -147,13 +153,13 @@ body {
 }
 
 .more {
-  margin-top: 40px;
-  width: 90px;
+  margin-top: 4rem;
+  width: 9rem;
   background-color: rgb(64, 224, 208);
   color: white;
-  border: 2px solid white;
-  border-radius: 40px;
-  padding: 15px;
+  border: 0.2rem solid white;
+  border-radius: 4rem;
+  padding: 1.5rem;
 }
 
 /* Second section -----------------------------*/
@@ -164,66 +170,69 @@ body {
 }
 
 .about-section {
-  padding: 50px;
+  padding: 5rem;
   margin: auto 0;
-  margin-left: 100px;
+  margin-left: 10rem;
+  max-width: 100vw;
 }
 
 .title-about {
-  font-size: 62px;
-  margin-top: 100px;
+  font-size: 6.2rem;
+  margin-top: 10rem;
 }
 
 .container-about {
   margin: auto 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4 repeat(400px);
-  row-gap: 0px;
-  column-gap: 150px;
+  grid-template-rows: 4 repeat(40rem);
+  row-gap: 0rem;
+  column-gap: 15rem;
   align-items: center;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 .about-about {
-  font-size: 52px;
-  margin-bottom: 50px;
+  font-size: 5.2rem;
+  margin-bottom: 5rem;
 }
 .paragraph-about {
-  font-size: 36px;
-  line-height: 1.3;
-  margin-top: 20px;
-  margin-bottom: 150px;
+  font-size: 3.6rem;
+  line-height: 1.8;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
 }
 
 .img-absolute {
   position: absolute;
   transform: translate(315%, 35%);
-  width: 600px;
+  width: 60rem;
 }
 
 .img-about {
-  width: 600px;
-  padding: 35px;
+  width: 60rem;
+
+  padding: 3.5rem;
 }
 .skills-title {
-  font-size: 52px;
-  margin-bottom: 50px;
-  border-bottom: 5px solid white;
+  font-size: 5.2rem;
+  margin-bottom: 5rem;
+  border-bottom: 0.5rem solid white;
   text-align: center;
 }
 
 .skills-about {
-  padding: 20px;
+  max-width: 118rem;
+  padding: 2rem;
   grid-column: 1/2;
   background-color: rgba(64, 224, 208, 0.514);
 }
 
 i {
-  font-size: 100px;
-  margin-left: 50px;
-  margin-right: 80px;
+  font-size: 10rem;
+  margin-left: 5rem;
+  margin-right: 8rem;
   text-align: center;
   line-height: 4;
   /* color: rgb(64, 224, 208); */
@@ -239,67 +248,68 @@ i:last-child {
   height: 100vh;
   width: auto;
   background-color: white;
-  padding: 50px;
-  margin-left: 100px;
+  padding: 5rem;
+  margin-left: 10rem;
 }
 
 .title-projects {
-  font-size: 62px;
-  margin-top: 50px;
+  font-size: 6.2rem;
+  margin-top: 5rem;
 
-  padding: 30px;
-  margin-bottom: 190px;
+  padding: 3rem;
+  margin-bottom: 19rem;
 }
 
 .subtitle-project {
-  font-size: 52px;
-  margin-top: 180px;
-  margin-bottom: 80px;
+  font-size: 5.2rem;
+  margin-top: 18rem;
+  margin-bottom: 8rem;
 }
 
 .description-container-project {
   display: flex;
   margin: auto 0;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .description-project {
-  font-size: 36px;
-  line-height: 1.3;
-  width: 1800px;
-  margin-right: 150px;
+  font-size: 3.6rem;
+  line-height: 1.8;
+  width: 180rem;
+  margin-right: 15rem;
 }
 
 .img-project {
-  width: 900px;
-  margin-right: 150px;
-  border-radius: 20px;
-  border: 3px solid black;
-  box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.582);
+  max-width: 90rem;
+  max-height: 50rem;
+  margin-right: 15rem;
+  border-radius: 2rem;
+  border: 0.3rem solid black;
+  box-shadow: 0rem 2rem 3rem 0rem rgba(0, 0, 0, 0.582);
 }
 
 .flex-skills-project {
   display: flex;
-  gap: 1250px;
+  gap: 125rem;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 20rem;
 
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .skills-title-project {
-  font-size: 52px;
-  margin-bottom: 50px;
-  border-bottom: 5px solid white;
+  font-size: 5.2rem;
+  margin-bottom: 5rem;
+  border-bottom: 0.5rem solid white;
   text-align: center;
 }
 
 .skills-project {
   background-color: rgba(64, 224, 208, 0.514);
-  width: auto;
-  margin-top: -170px;
-  padding: 40px;
+  max-width: 80rem;
+  margin-top: -17rem;
+  padding: 4rem;
 }
 
 .button-container {
@@ -308,7 +318,7 @@ i:last-child {
 }
 
 .live-button {
-  width: 68px;
+  width: 6.8rem;
 }
 
 .git {
@@ -317,16 +327,16 @@ i:last-child {
 }
 
 .devicon-github-original-wordmark {
-  font-size: 65px;
+  font-size: 6.5rem;
   cursor: pointer;
 }
 
 .button {
-  font-size: 36px;
+  font-size: 3.6rem;
   background-color: rgba(64, 224, 208, 0.829);
   color: white;
-  border: 2px solid white;
-  border-radius: 10px;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
   cursor: pointer;
 }
 
@@ -336,19 +346,19 @@ i:last-child {
   height: 100vh;
   width: auto;
   background-color: white;
-  padding: 50px;
-  margin-left: 150px;
+  padding: 5rem;
+  margin-left: 15rem;
 }
 
 .container-project-4 {
-  margin-top: 50px;
-  padding: 50px 0;
+  margin-top: 5rem;
+  padding: 5rem 0;
 }
 
 .subtitle-project-2 {
-  font-size: 52px;
-  margin-top: 100px;
-  margin-bottom: 90px;
+  font-size: 5.2rem;
+  margin-top: 10rem;
+  margin-bottom: 9rem;
 }
 
 /* Section five ------------ */
@@ -357,13 +367,13 @@ i:last-child {
   height: 100vh;
   width: auto;
   background-color: white;
-  padding: 50px;
-  margin-left: 150px;
+  padding: 5rem;
+  margin-left: 15rem;
 }
 
 .container-project-5 {
-  margin-top: 50px;
-  padding: 50px 0;
+  margin-top: 5rem;
+  padding: 5rem 0;
 }
 
 /* Section 6 contact page-------------- */
@@ -383,28 +393,28 @@ i:last-child {
 .contact-container {
   text-align: center;
   margin: 0 auto;
-  padding: 100px;
-  border-bottom: 10px solid white;
+  padding: 10rem;
+  border-bottom: 1rem solid white;
   background-color: rgba(64, 224, 208, 0.5);
 }
 
 .contact-title {
-  font-size: 62px;
-  margin-bottom: 30px;
-  padding: 20px;
-  border-bottom: 3px solid white;
+  font-size: 6.2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-bottom: 0.3rem solid white;
 }
 
 .contact-description {
-  font-size: 36px;
+  font-size: 3.6rem;
   line-height: 1.3;
 }
 
 .form-flex-container {
   display: flex;
   justify-content: center;
-  gap: 300px;
-  margin: 200px 0;
+  gap: 30rem;
+  margin: 20rem 0;
 }
 
 .my-link-container {
@@ -412,23 +422,23 @@ i:last-child {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 60px;
-  padding: 100px 50px;
-  border-radius: 20px;
-  border: 5px solid rgba(64, 224, 208, 0.829);
+  gap: 6rem;
+  padding: 10rem 5rem;
+  border-radius: 2rem;
+  border: 0.5rem solid rgba(64, 224, 208, 0.829);
 }
 
 .devicon-linkedin-plain {
-  margin-left: -0px;
+  margin-left: -0rem;
 }
 .icon {
-  font-size: 62px;
-  width: 62px;
-  margin-right: 30px;
+  font-size: 6.2rem;
+  width: 6.2rem;
+  margin-right: 3rem;
 }
 
 .link {
-  font-size: 52px;
+  font-size: 5.2rem;
   font-weight: 700;
   color: black;
   text-decoration: none;
@@ -436,42 +446,42 @@ i:last-child {
 
 .form-container {
   background-color: rgba(64, 224, 208, 0.5);
-  padding: 100px;
-  border-radius: 20px;
-  border: 1px solid black;
-  box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.2);
+  padding: 10rem;
+  border-radius: 2rem;
+  border: 0.1rem solid black;
+  box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .form-title {
-  font-size: 52px;
-  margin-top: -30px;
-  margin-bottom: 50px;
+  font-size: 5.2rem;
+  /* margin-top: -10rem; */
+  margin-bottom: 5rem;
   text-align: center;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .input {
-  font-size: 30px;
-  padding: 20px;
-  border-radius: 20px;
+  font-size: 3rem;
+  padding: 2rem;
+  border-radius: 2rem;
   font-family: "Roboto Slab", serif;
-  border: 1px solid black;
+  border: 0.1rem solid black;
 }
 
 .message {
   font-family: "Roboto Slab", serif;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .send-btn {
-  font-size: 30px;
-  padding: 15px;
-  border-radius: 20px;
+  font-size: 3rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
   width: max-content;
   margin: 0 auto;
   background-color: white;
