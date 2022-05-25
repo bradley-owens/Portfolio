@@ -22,7 +22,7 @@ body {
   /* scroll-snap-type: y mandatory; */
   /* overflow-y: scroll; */
   height: 100vh;
-  width: auto;
+  width: auto 0;
 }
 
 .hero-section {
@@ -64,9 +64,10 @@ body {
 
 .nav {
   background-color: rgba(64, 224, 208, 0.514);
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
+
   align-items: center;
   color: black;
   position: sticky;
@@ -74,7 +75,7 @@ body {
 }
 
 .nav-title {
-  font-size: 5.2rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-left: 3rem;
 }
@@ -82,11 +83,10 @@ body {
 .link-container {
   display: flex;
   gap: 10rem;
-  margin-right: 3rem;
 }
 
 .link-nav {
-  font-size: 4.4rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: black;
   text-decoration: none;
@@ -96,18 +96,16 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   align-items: flex-end;
   border-bottom: 0.5rem solid rgba(64, 224, 208);
 }
 
 .dot {
-  width: 4rem;
+  width: 3.4rem;
   color: rgba(64, 224, 208);
   line-height: 2;
-
   margin-right: 4rem;
-  margin-top: -1rem;
   cursor: pointer;
 }
 
@@ -125,6 +123,7 @@ body {
 
 .hero-title {
   position: relative;
+  font-size: 5rem;
 }
 
 .hero-title::before,
@@ -165,74 +164,67 @@ body {
 /* Second section -----------------------------*/
 
 .two {
-  height: 100vh;
-  width: 100%;
+  /* height: 100vh; */
+  max-width: 180rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
 }
 
 .about-section {
-  padding: 5rem;
-  margin: auto 0;
   margin-left: 10rem;
   max-width: 100vw;
 }
 
 .title-about {
-  font-size: 6.2rem;
-  margin-top: 10rem;
+  font-size: 5rem;
+  margin-top: 20rem;
 }
 
 .container-about {
   margin: auto 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4 repeat(40rem);
-  row-gap: 0rem;
-  column-gap: 15rem;
+  /* column-gap: 10rem; */
   align-items: center;
   position: relative;
-  margin-bottom: 10rem;
+  margin: 10rem 0;
 }
 
 .about-about {
-  font-size: 5.2rem;
+  font-size: 4rem;
   margin-bottom: 5rem;
 }
 .paragraph-about {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   line-height: 1.8;
   margin-top: 5rem;
   margin-bottom: 15rem;
 }
 
-.img-absolute {
-  position: absolute;
-  transform: translate(315%, 35%);
-  width: 60rem;
-}
-
-.img-about {
-  width: 60rem;
-
+.about-img {
+  width: 100%;
   padding: 3.5rem;
 }
+
 .skills-title {
-  font-size: 5.2rem;
+  font-size: 4rem;
   margin-bottom: 5rem;
   border-bottom: 0.5rem solid white;
   text-align: center;
 }
 
 .skills-about {
-  max-width: 118rem;
+  max-width: 50%;
+  grid-column: 1/-1;
+  text-align: center;
   padding: 2rem;
-  grid-column: 1/2;
   background-color: rgba(64, 224, 208, 0.514);
 }
 
 i {
-  font-size: 10rem;
-  margin-left: 5rem;
-  margin-right: 8rem;
+  font-size: 7rem;
+  /* margin-left: 1rem; */
+  margin-right: 4rem;
   text-align: center;
   line-height: 4;
   /* color: rgb(64, 224, 208); */
@@ -245,61 +237,58 @@ i:last-child {
 /* Third section ------------------------------------- */
 
 .three {
-  height: 100vh;
-  width: auto;
+  max-width: 170rem;
+  width: auto 0;
   background-color: white;
-  padding: 5rem;
-  margin-left: 10rem;
+  margin-bottom: 10rem;
+}
+
+.grid-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+  column-gap: 10rem;
 }
 
 .title-projects {
-  font-size: 6.2rem;
+  font-size: 6rem;
   margin-top: 5rem;
-
   padding: 3rem;
-  margin-bottom: 19rem;
 }
 
 .subtitle-project {
-  font-size: 5.2rem;
-  margin-top: 18rem;
-  margin-bottom: 8rem;
-}
-
-.description-container-project {
-  display: flex;
-  margin: auto 0;
-  gap: 2rem;
+  font-size: 5rem;
+  margin: 5rem 0;
 }
 
 .description-project {
-  font-size: 3.6rem;
+  grid-template-columns: 1/2;
+  font-size: 2.8rem;
   line-height: 1.8;
-  width: 180rem;
   margin-right: 15rem;
+  margin-bottom: 15rem;
 }
 
 .img-project {
-  max-width: 90rem;
-  max-height: 50rem;
+  max-width: 80%;
   margin-right: 15rem;
   border-radius: 2rem;
   border: 0.3rem solid black;
   box-shadow: 0rem 2rem 3rem 0rem rgba(0, 0, 0, 0.582);
 }
 
-.flex-skills-project {
-  display: flex;
-  gap: 125rem;
-  align-items: center;
-  margin-left: 20rem;
+.image-project {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
 
+.flex-skills-project {
   max-width: 100%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .skills-title-project {
-  font-size: 5.2rem;
+  font-size: 4rem;
   margin-bottom: 5rem;
   border-bottom: 0.5rem solid white;
   text-align: center;
@@ -307,14 +296,12 @@ i:last-child {
 
 .skills-project {
   background-color: rgba(64, 224, 208, 0.514);
-  max-width: 80rem;
-  margin-top: -17rem;
   padding: 4rem;
 }
 
 .button-container {
-  align-items: center;
-  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 40rem;
 }
 
 .live-button {
@@ -343,16 +330,15 @@ i:last-child {
 /* Section 4 ------------- */
 
 .four {
-  height: 100vh;
-  width: auto;
+  /* height: 100vh; */
+  max-width: 170rem;
   background-color: white;
-  padding: 5rem;
-  margin-left: 15rem;
+  width: auto 0;
+  margin-bottom: 10rem;
 }
 
 .container-project-4 {
   margin-top: 5rem;
-  padding: 5rem 0;
 }
 
 .subtitle-project-2 {
@@ -364,16 +350,15 @@ i:last-child {
 /* Section five ------------ */
 
 .five {
-  height: 100vh;
-  width: auto;
+  /* height: 100vh; */
+  max-width: 170rem;
   background-color: white;
-  padding: 5rem;
-  margin-left: 15rem;
+  width: auto;
+  margin-bottom: 40rem;
 }
 
 .container-project-5 {
   margin-top: 5rem;
-  padding: 5rem 0;
 }
 
 /* Section 6 contact page-------------- */
@@ -388,6 +373,8 @@ i:last-child {
 
 .six {
   background-color: white;
+  margin: 0 auto;
+  max-width: 250rem;
 }
 
 .contact-container {
@@ -399,14 +386,14 @@ i:last-child {
 }
 
 .contact-title {
-  font-size: 6.2rem;
+  font-size: 5rem;
   margin-bottom: 3rem;
-  padding: 2rem;
+
   border-bottom: 0.3rem solid white;
 }
 
 .contact-description {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   line-height: 1.3;
 }
 
@@ -414,7 +401,7 @@ i:last-child {
   display: flex;
   justify-content: center;
   gap: 30rem;
-  margin: 20rem 0;
+  margin: 10rem 0;
 }
 
 .my-link-container {
@@ -424,6 +411,7 @@ i:last-child {
   align-items: flex-start;
   gap: 6rem;
   padding: 10rem 5rem;
+  height: 50%;
   border-radius: 2rem;
   border: 0.5rem solid rgba(64, 224, 208, 0.829);
 }
@@ -432,13 +420,13 @@ i:last-child {
   margin-left: -0rem;
 }
 .icon {
-  font-size: 6.2rem;
-  width: 6.2rem;
+  font-size: 5rem;
+  width: 5rem;
   margin-right: 3rem;
 }
 
 .link {
-  font-size: 5.2rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: black;
   text-decoration: none;
@@ -446,16 +434,16 @@ i:last-child {
 
 .form-container {
   background-color: rgba(64, 224, 208, 0.5);
-  padding: 10rem;
+  padding: 2.8rem 8rem;
+  height: 50%;
   border-radius: 2rem;
   border: 0.1rem solid black;
   box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .form-title {
-  font-size: 5.2rem;
-  /* margin-top: -10rem; */
-  margin-bottom: 5rem;
+  font-size: 4rem;
+  margin-bottom: 4rem;
   text-align: center;
 }
 
@@ -466,8 +454,8 @@ i:last-child {
 }
 
 .input {
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 2rem;
+  padding: 2.5rem;
   border-radius: 2rem;
   font-family: "Roboto Slab", serif;
   border: 0.1rem solid black;
@@ -475,12 +463,11 @@ i:last-child {
 
 .message {
   font-family: "Roboto Slab", serif;
-  margin-bottom: 3rem;
 }
 
 .send-btn {
   font-size: 3rem;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 2rem;
   width: max-content;
   margin: 0 auto;
