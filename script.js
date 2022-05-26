@@ -85,7 +85,7 @@ const revealSections = function (entries, observer) {
 
 const sectionObserver = new IntersectionObserver(revealSections, {
   root: null,
-  threshold: 0.1,
+  threshold: 0.3,
 });
 
 allSections.forEach((section) => {

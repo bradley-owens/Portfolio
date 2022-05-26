@@ -151,7 +151,7 @@ body {
   background-color: none;
 }
 
-.more {
+/* .more {
   margin-top: 4rem;
   width: 9rem;
   background-color: rgb(64, 224, 208);
@@ -159,7 +159,7 @@ body {
   border: 0.2rem solid white;
   border-radius: 4rem;
   padding: 1.5rem;
-}
+} */
 
 /* Second section -----------------------------*/
 
@@ -167,7 +167,7 @@ body {
   /* height: 100vh; */
   max-width: 180rem;
   margin: 0 auto;
-  margin-bottom: 10rem;
+  padding: 8rem 0;
 }
 
 .about-section {
@@ -238,9 +238,9 @@ i:last-child {
 
 .three {
   max-width: 170rem;
-  width: auto 0;
+  margin: 0 auto;
   background-color: white;
-  margin-bottom: 10rem;
+  padding: 8rem 0;
 }
 
 .grid-project {
@@ -300,12 +300,11 @@ i:last-child {
 }
 
 .button-container {
-  margin-top: 10rem;
-  margin-left: 40rem;
+  margin: 5rem 25rem;
 }
 
 .live-button {
-  width: 6.8rem;
+  width: 6rem;
 }
 
 .git {
@@ -314,7 +313,7 @@ i:last-child {
 }
 
 .devicon-github-original-wordmark {
-  font-size: 6.5rem;
+  font-size: 6rem;
   cursor: pointer;
 }
 
@@ -333,8 +332,8 @@ i:last-child {
   /* height: 100vh; */
   max-width: 170rem;
   background-color: white;
-  width: auto 0;
-  margin-bottom: 10rem;
+  margin: 0 auto;
+  padding: 8rem 0;
 }
 
 .container-project-4 {
@@ -353,8 +352,8 @@ i:last-child {
   /* height: 100vh; */
   max-width: 170rem;
   background-color: white;
-  width: auto;
-  margin-bottom: 40rem;
+  margin: 0 auto;
+  padding: 10rem 0;
 }
 
 .container-project-5 {
@@ -373,7 +372,7 @@ i:last-child {
 
 .six {
   background-color: white;
-  margin: 0 auto;
+  margin: 50rem auto;
   max-width: 250rem;
 }
 
