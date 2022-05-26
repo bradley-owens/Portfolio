@@ -1,0 +1,62 @@
+/* SMALL LAPTOPS */
+
+@media (max-width: 82.5em) {
+  /* Hero */
+  .title-container {
+    transform: translate(-38%, -40%);
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  /* About section */
+  .paragraph-about {
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+  }
+
+  .skills-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  i {
+    font-size: 5rem;
+  }
+
+  /* projects  */
+
+  .subtitle-project {
+    font-size: 4rem;
+  }
+
+  .description-project {
+    font-size: 2.4rem;
+    margin-bottom: 8rem;
+  }
+
+  .skills-project {
+    padding: 2rem;
+  }
+
+  .view {
+    font-size: 5rem;
+    width: 5rem;
+  }
+
+  /* Contact Section */
+
+  .form-flex-container {
+    gap: 9rem;
+  }
+
+  .icon {
+    font-size: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .link {
+    font-size: 3.2rem;
+  }
+}
