@@ -178,7 +178,6 @@ body {
   margin: auto 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* column-gap: 10rem; */
   align-items: center;
   position: relative;
   margin: 1rem 0;
@@ -196,7 +195,7 @@ body {
 }
 
 .about-img {
-  width: 100%;
+  width: 110%;
   padding: 3.5rem;
 }
 
@@ -253,7 +252,7 @@ i:last-child {
   margin: 5rem 0;
 }
 
-.description-project {
+.description-container-project {
   grid-template-columns: 1/2;
   font-size: 2.6rem;
   line-height: 1.8;
@@ -269,7 +268,7 @@ i:last-child {
   box-shadow: 0rem 2rem 3rem 0rem rgba(0, 0, 0, 0.582);
 }
 
-.image-project {
+.grid-img-project {
   grid-column: 2/3;
   grid-row: 1/2;
 }
