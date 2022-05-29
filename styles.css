@@ -271,6 +271,7 @@ i:last-child {
 .grid-img-project {
   grid-column: 2/3;
   grid-row: 1/2;
+  margin-top: 15rem;
 }
 
 .flex-skills-project {
@@ -337,7 +338,7 @@ i:last-child {
   /* height: 100vh; */
   max-width: 150rem;
   background-color: white;
-  margin: 40rem auto;
+  margin: 40rem auto 70rem;
   padding: 0 8rem;
 }
 

@@ -185,9 +185,15 @@
     font-size: 2.7rem;
     margin-right: -2rem;
   }
+  .title-container {
+    transform: translate(-45%, -90%);
+    left: 42%;
+    top: 50%;
+  }
 
   .hero-title {
-    font-size: 3.6rem;
+    font-size: 4.3rem;
+    text-align: right;
   }
 
   /* About section */
@@ -245,7 +251,12 @@
 /* Portrait Tablets 800PX */
 /* ////////////////////////////// */
 
-@media (max-width: 51.87em) {
+@media (max-width: 51.43em) {
+  /* Hero Secion */
+  .link-nav {
+    margin-right: -4rem;
+  }
+
   /* about section */
 
   .container-about {
@@ -281,11 +292,8 @@
   /* Project section */
 
   .grid-project {
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-columns: 1fr;
-    display: inline-grid;
-    grid-auto-flow: row;
-    grid-auto-rows: max-content;
   }
 
   .description-container-project {
@@ -293,20 +301,33 @@
     grid-column: 1/2;
     margin: 0;
   }
+  .title-projects {
+    margin-top: 2rem;
+  }
+
+  .subtitle-project {
+    font-size: 5rem;
+    margin: 1rem 0;
+  }
 
   .grid-img-project {
     grid-row: 2/3;
     grid-column: 1/2;
-    margin: 0;
+    margin-top: -10rem;
   }
 
   .button-container {
-    margin: 4rem 22rem;
+    margin: 3rem 26rem;
   }
 
   .flex-skills-project {
     grid-row: 3/4;
     grid-column: 1/2;
     margin: 0;
+  }
+
+  .skills-title-project {
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
 }
