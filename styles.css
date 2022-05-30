@@ -62,7 +62,7 @@ body {
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
       */
 
-.nav {
+.main-nav {
   background-color: rgba(64, 224, 208, 0.514);
   padding: 3rem;
   display: flex;
@@ -71,7 +71,6 @@ body {
   align-items: center;
   color: black;
   position: sticky;
-  /* filter: blur(0); */
 }
 
 .nav-title {
@@ -96,6 +95,14 @@ body {
   margin-right: 5rem;
 }
 
+/* Mobile Navigation */
+
+.icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* ///////////////// */
 .flex-title {
   display: flex;
   justify-content: space-between;
@@ -347,14 +354,6 @@ i:last-child {
 }
 
 /* Section 6 contact page-------------- */
-
-/*
-      SPACING SYSTEM (px)
-      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-      FONT SIZE SYSTEM (px)
-      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-      */
 
 .six {
   background-color: white;

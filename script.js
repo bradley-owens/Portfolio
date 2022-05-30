@@ -92,3 +92,21 @@ allSections.forEach((section) => {
   sectionObserver.observe(section);
   section.classList.add("section-hidden");
 });
+
+// Opening and closing Mobile Nav//
+
+const icons = document.querySelectorAll(".icon");
+const mainNav = document.querySelector(".main-nav");
+const linkContainer = document.querySelector(".link-container");
+
+icons.forEach((button) =>
+  button.addEventListener("click", function () {
+    if (this.id === "close") {
+      mainNav.classList.remove("nav-open");
+      linkContainer.style.transition = "all 0.5s";
+    } else {
+      mainNav.classList.add("nav-open");
+      linkContainer.style.transition = "all 0.5s";
+    }
+  })
+);
