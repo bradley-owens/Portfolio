@@ -96,7 +96,7 @@
   }
 
   .dot {
-    margin-right: 3.2rem;
+    margin-right: 2rem;
   }
 
   .about-about {
@@ -119,10 +119,6 @@
 
   .img-project {
     margin-top: 9rem;
-  }
-
-  .button-container {
-    margin: 3rem 16rem;
   }
 
   .flex-skills-project {
@@ -216,10 +212,6 @@
   }
 
   /* Project Section*/
-
-  .button-container {
-    margin: 4rem 11rem;
-  }
 
   .view {
     width: 4.5rem;
@@ -325,8 +317,9 @@
   /* about section */
 
   .container-about {
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-row-align: start;
   }
 
   .grid-about {
@@ -381,10 +374,6 @@
     margin-top: -10rem;
   }
 
-  .button-container {
-    margin: 3rem 26rem;
-  }
-
   .flex-skills-project {
     grid-row: 3/4;
     grid-column: 1/2;
@@ -413,5 +402,56 @@
     padding: 2.8rem 2rem;
     flex-direction: column;
     margin: 5rem 0;
+  }
+}
+
+/* SMALL TABLETS 700PX */
+
+@media (max-width: 43.75em) {
+  /* about section */
+  .two {
+    margin-bottom: 20rem;
+  }
+  .dot {
+    margin-right: 1rem;
+  }
+
+  .title-about {
+    font-size: 3rem;
+  }
+
+  .about-about {
+    font-size: 3.5rem;
+  }
+
+  .paragraph-about {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-size: 2.2rem;
+  }
+
+  .about-img {
+    margin-top: -40rem;
+  }
+
+  /* Project section */
+
+  .subtitle-project {
+    font-size: 4rem;
+  }
+
+  .button-container {
+    margin: 3rem 0;
+    width: 100%;
+  }
+
+  /* contact section  */
+
+  .contact-title {
+    font-size: 3.5rem;
+  }
+
+  .form-title {
+    font-size: 3.5rem;
   }
 }

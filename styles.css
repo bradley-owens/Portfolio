@@ -311,7 +311,9 @@ i:last-child {
 }
 
 .button-container {
-  margin: 5rem 18rem;
+  text-align: center;
+  margin: 5rem 0;
+  width: 100%;
 }
 
 .view {
