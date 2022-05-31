@@ -95,10 +95,6 @@
     font-size: 4rem;
   }
 
-  .dot {
-    margin-right: 2rem;
-  }
-
   .about-about {
     font-size: 3.5rem;
   }
@@ -199,8 +195,8 @@
   }
 
   .dot {
-    width: 3rem;
-    margin-right: 2.5rem;
+    width: 2.8rem;
+    margin-right: 3rem;
   }
 
   .about-about {
@@ -347,6 +343,10 @@
     grid-row: 3/4;
   }
 
+  .dot {
+    display: none;
+  }
+
   /* Project section */
 
   .grid-project {
@@ -408,12 +408,15 @@
 /* SMALL TABLETS 700PX */
 
 @media (max-width: 43.75em) {
+  /* Hero section */
+
+  .hero-title {
+    font-size: 3.7rem;
+  }
+
   /* about section */
   .two {
     margin-bottom: 20rem;
-  }
-  .dot {
-    margin-right: 1rem;
   }
 
   .title-about {
@@ -440,11 +443,6 @@
     font-size: 4rem;
   }
 
-  .button-container {
-    margin: 3rem 0;
-    width: 100%;
-  }
-
   /* contact section  */
 
   .contact-title {
@@ -453,5 +451,68 @@
 
   .form-title {
     font-size: 3.5rem;
+  }
+}
+
+/* Phones (500PX) */
+
+@media (max-width: 34.37em) {
+  /* Hero Section */
+
+  .hero-title {
+    font-size: 3.3rem;
+  }
+
+  /* about section */
+  .two {
+    margin-bottom: 0;
+  }
+
+  .about-about {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .paragraph-about {
+    font-size: 2.1rem;
+  }
+
+  .about-img {
+    margin-top: -60rem;
+  }
+
+  .skills-title {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  i {
+    font-size: 4.5rem;
+    margin-right: 2rem;
+  }
+
+  /* Projects section */
+
+  .subtitle-project {
+    font-size: 3.5rem;
+  }
+
+  .description-project {
+    font-size: 2.1rem;
+  }
+
+  /* Contact Section */
+
+  .form-container {
+    padding: 1rem;
+  }
+
+  .form-title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-description {
+    font-size: 2.1rem;
   }
 }
