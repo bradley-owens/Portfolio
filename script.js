@@ -1,3 +1,4 @@
+//************************************************* */
 // Send Email function
 
 function sendEmail() {
@@ -15,7 +16,7 @@ function sendEmail() {
       alert("Your message has been sent! I'll be in touch as soon as I can! ");
     });
 }
-
+//********************************************* */
 // smooth scrolling option with javascript
 
 const scrollToSection = document.querySelectorAll(".smooth_scroll");
@@ -32,20 +33,7 @@ scrollToSection.forEach((el) => {
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   });
 });
-
-//Event Delegation - for nav bar
-
-// const scrollToLinks = document.querySelectorAll(".links");
-
-// scrollToLinks.addEventListener("click", function (e) {
-//   e.preventDefault();
-//   console.log(e.target.classList);
-//   if (e.target.classList.contains("smooth_scroll")) {
-//     const id = e.target.getAttribute("href");
-//     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-//   }
-// });
-
+//******************************************/
 // changing opacity of links when mouse over
 
 const nav = document.querySelector(".nav");
@@ -72,6 +60,7 @@ nav.addEventListener("mouseout", function (e) {
   hoverOver(e, 1);
 });
 
+//************************************************ */
 /// Revealing sections animation
 const allSections = document.querySelectorAll(".section");
 
@@ -85,7 +74,7 @@ const revealSections = function (entries, observer) {
 
 const sectionObserver = new IntersectionObserver(revealSections, {
   root: null,
-  threshold: 0.3,
+  threshold: 0.15,
 });
 
 allSections.forEach((section) => {
@@ -93,6 +82,7 @@ allSections.forEach((section) => {
   section.classList.add("section-hidden");
 });
 
+//******************************************** */
 // Opening and closing Mobile Nav//
 
 const icons = document.querySelectorAll(".icon");

@@ -633,20 +633,8 @@
 
 /*  smaller Phones 390px */
 
-@media (max-width: 24.35em) {
-  /* about section */
-
-  .paragraph-about {
-    font-size: 1.8rem;
-  }
-
-  /* projects Section */
-
-  .description-project {
-    font-size: 1.8rem;
-  }
-
-  /* contact Section */
+@media (max-width: 24.45em) {
+  /* All sections  */
 
   .two {
     margin-bottom: 70rem;
@@ -661,6 +649,21 @@
   .five {
     margin-bottom: 70rem;
   }
+
+  /* about section */
+
+  .paragraph-about {
+    font-size: 1.8rem;
+  }
+
+  /* projects Section */
+
+  .description-project {
+    font-size: 1.8rem;
+  }
+
+  /* contact Section */
+
   .link {
     font-size: 2rem;
   }
