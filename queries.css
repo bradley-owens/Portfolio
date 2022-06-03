@@ -631,23 +631,23 @@
   }
 }
 
-/*  smaller Phones 390px */
+/*  smaller Phones 400px */
 
-@media (max-width: 24.45em) {
+@media (max-width: 25em) {
   /* All sections  */
 
   .two {
-    margin-bottom: 70rem;
+    margin-bottom: 30rem;
     background-color: aqua;
   }
   .three {
-    margin-bottom: 70rem;
+    margin-bottom: 30rem;
   }
   .four {
-    margin-bottom: 70rem;
+    margin-bottom: 30rem;
   }
   .five {
-    margin-bottom: 70rem;
+    margin-bottom: 30rem;
   }
 
   /* about section */
