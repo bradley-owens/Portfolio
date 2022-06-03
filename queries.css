@@ -630,3 +630,34 @@
     font-size: 2.5rem;
   }
 }
+
+/* Phones 350px */
+
+@media (max-width: 21.87em) {
+  /* about section */
+
+  .paragraph-about {
+    font-size: 1.8rem;
+  }
+
+  /* projects Section */
+
+  .description-project {
+    font-size: 1.8rem;
+  }
+
+  /* contact Section */
+
+  .link {
+    font-size: 2rem;
+  }
+
+  .form-title {
+    font-size: 2.5rem;
+  }
+
+  .input {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+}
