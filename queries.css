@@ -638,7 +638,6 @@
 
   .two {
     margin-bottom: 30rem;
-    background-color: aqua;
   }
   .three {
     margin-bottom: 30rem;
@@ -649,9 +648,15 @@
   .five {
     margin-bottom: 30rem;
   }
+  .six {
+    margin-bottom: 30rem;
+  }
 
   /* about section */
 
+  .grid-about {
+    margin-bottom: 5rem;
+  }
   .paragraph-about {
     font-size: 1.8rem;
   }
@@ -662,6 +667,11 @@
     font-size: 1.8rem;
   }
 
+  .img-project {
+    max-width: 140%;
+    margin-left: -4.5rem;
+  }
+
   /* contact Section */
 
   .link {
@@ -670,6 +680,10 @@
 
   .form-title {
     font-size: 2.5rem;
+  }
+
+  .form-flex-container {
+    margin: 0;
   }
 
   .input {
