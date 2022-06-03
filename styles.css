@@ -43,7 +43,7 @@ body {
 
 .section-hidden {
   opacity: 0;
-  transform: translateY(5rem);
+  transform: translateY(0rem);
 }
 
 .hero {
