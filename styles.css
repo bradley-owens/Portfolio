@@ -430,8 +430,9 @@ i:last-child {
 }
 
 .link:hover {
-  text-decoration: underline 8px solid rgb(64, 224, 208);
-  transition: all 0.8s;
+  color: rgb(64, 224, 208);
+  transition: all 0.5s;
+  transform: translateX(2rem);
 }
 .form-container {
   background-color: rgba(64, 224, 208, 0.5);
