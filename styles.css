@@ -167,7 +167,7 @@ body {
 
 .two {
   max-width: 150rem;
-  margin: 0 auto 40rem auto;
+  margin: 0 auto 30rem;
   padding: 0 8rem;
 }
 
@@ -247,7 +247,7 @@ i:last-child {
 
 .three {
   max-width: 150rem;
-  margin: 40rem auto;
+  margin: 30rem auto;
   background-color: white;
   padding: 0 8rem;
 }
@@ -338,7 +338,7 @@ i:last-child {
   /* height: 100vh; */
   max-width: 150rem;
   background-color: white;
-  margin: 40rem auto;
+  margin: 30rem auto;
   padding: 0 8rem;
 }
 
@@ -355,10 +355,9 @@ i:last-child {
 /* Section five ------------ */
 
 .five {
-  /* height: 100vh; */
   max-width: 150rem;
   background-color: white;
-  margin: 40rem auto 70rem;
+  margin: 40rem auto 50rem;
   padding: 0 8rem;
 }
 
@@ -370,7 +369,7 @@ i:last-child {
 
 .six {
   background-color: white;
-  margin: 50rem auto 0 auto;
+  margin: 30rem auto 0 auto;
   max-width: 150rem;
 }
 

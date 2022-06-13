@@ -10,12 +10,13 @@ function sendEmail() {
   };
 
   emailjs
-    .send("service_t0fv5m8", "template_2byut5t", tempParameters)
+    .send("service_ptz6nx5", "template_61id0lg", tempParameters)
     .then(function (response) {
       console.log("sucess", response.status);
-      alert("Your message has been sent! I'll be in touch as soon as I can! ");
+      alert("Your message has been sent! I'll be in touch as soon as I can!");
     });
 }
+
 //********************************************* */
 // smooth scrolling option with javascript
 
@@ -74,7 +75,7 @@ const revealSections = function (entries, observer) {
 
 const sectionObserver = new IntersectionObserver(revealSections, {
   root: null,
-  threshold: 0.25,
+  threshold: 0.15,
 });
 
 allSections.forEach((section) => {
