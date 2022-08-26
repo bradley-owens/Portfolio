@@ -69,6 +69,10 @@
 @media (max-width: 70.62em) {
   /* Hero section */
 
+  .zoom {
+    display: none;
+  }
+
   .nav-title {
     margin-left: 1rem;
     font-size: 3.5rem;
