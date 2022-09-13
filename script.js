@@ -37,29 +37,29 @@ scrollToSection.forEach((el) => {
 //******************************************/
 // changing opacity of links when mouse over
 
-const nav = document.querySelector(".nav");
+// const nav = document.querySelector(".nav");
 
-const hoverOver = function (e, opac) {
-  if (e.target.classList.contains("link-nav")) {
-    // console.log("success");
-    const link = e.target;
-    const siblings = link.closest(".nav").querySelectorAll(".link-nav");
+// const hoverOver = function (e, opac) {
+//   if (e.target.classList.contains("link-nav")) {
+//     // console.log("success");
+//     const link = e.target;
+//     const siblings = link.closest(".nav").querySelectorAll(".link-nav");
 
-    siblings.forEach((el) => {
-      if (el !== link) {
-        el.style.opacity = opac;
-      }
-    });
-  }
-};
+//     siblings.forEach((el) => {
+//       if (el !== link) {
+//         el.style.opacity = opac;
+//       }
+//     });
+//   }
+// };
 
-nav.addEventListener("mouseover", function (e) {
-  hoverOver(e, 0.5);
-});
+// nav.addEventListener("mouseover", function (e) {
+//   hoverOver(e, 0.5);
+// });
 
-nav.addEventListener("mouseout", function (e) {
-  hoverOver(e, 1);
-});
+// nav.addEventListener("mouseout", function (e) {
+//   hoverOver(e, 1);
+// });
 
 //************************************************ */
 /// Revealing sections animation

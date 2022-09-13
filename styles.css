@@ -102,10 +102,17 @@ body {
   font-weight: 700;
   color: black;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .link-nav:last-child {
   margin-right: 5rem;
+}
+
+.link-nav:hover {
+  color: white;
+  font-weight: bolder;
+  transition: 0.3s;
 }
 
 /* Mobile Navigation */
@@ -187,6 +194,7 @@ body {
   line-height: 2;
   margin-right: 4rem;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .about-section {
@@ -446,6 +454,7 @@ i:last-child {
   border-radius: 2rem;
   border: 0.1rem solid black;
   box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.2);
+  /* margin-top: -8rem; */
 }
 
 .form-title {
@@ -462,7 +471,7 @@ i:last-child {
 
 .input {
   font-size: 2.3rem;
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 2rem;
   font-family: "Roboto Slab", serif;
   border: 0.1rem solid black;
